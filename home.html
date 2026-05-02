@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Fletë Rexha</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portofolio</div>
+        
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul id="nav-links">
+            <li><a href="#home">Ballina</a></li>
+            <li><a href="#about">Rreth meje</a></li>
+            <li><a href="#projects">Projektet</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="typewriter">Përshëndetje, unë jam <span class="highlight">Fletë Rexha</span></h1>
+            <p>Junior Web Designer & Developer</p>
+            <button onclick="scrollToAbout()">Mëso më shumë</button>
+        </div>
+    </section>
+
+    <section id="about" class="reveal">
+        <h2>Rreth meje</h2>
+        <p>
+            Jam studente e vitit 1 në Fakultetin Shkencave Kompjuterike dhe Inxhinieri Bachelor në UBT.<br><br>
+            Kam njohuri me <strong>HTML, CSS, JavaScript</strong> për Frontend dhe <strong>PHP e MySQL</strong> për Backend. 
+            Gjithashtu përdor framework-un <strong>Laravel</strong> dhe jam duke mësuar <strong>Java e Spring Boot</strong>.
+        </p>
+    </section>
+
+    <section id="projects" class="reveal">
+        <h2>Projektet</h2>
+        <div class="project-grid">
+            <div class="card"> <h3>Projekti 1</h3> <a href="https://github.com/rexhaflete/NB"></a><img src="image/notebook.png" alt="Notebook  " class="card-img"> </div>
+            <div class="card"> <h3>Projekti 2</h3> <img src="image/dsProject.png" alt="Terminet" class="card-img"> </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Kontakt</h2>
+        <p>Email: fleterexha@gmail.com</p>
+        <p>Telefon: +383 49 886 340</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
