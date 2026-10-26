@@ -3,74 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio - Fletë Rexha</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    
+    <title>Fletë Rexha - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#about">About me</a>
+            <a href="#resume">Resume</a>
+        </div>
+        <div class="logo">Fletë Rexha</div>
+        <div class="nav-links">
+           <a href="#contact">Let's Connect</a>
+            <a href="#work">Work</a>
+        </div>
+    </nav>
+
     <section class="hero">
-  <nav class="navbar">
-    <div class="nav-links">
-      <a href="#"> Let's Connect</a>
-      <a href="#">Work</a>
-    </div>
-    <div class="logo">Fletë Rexha</div>
-    <div class="nav-links">
-      <a href="#">About</a>
-      <a href="#">✧ Resume</a>
-    </div>
-  </nav>
+        <div class="hero-content">
+            <div class="info-bar" id="info-bar">
+                <span>Hello I'm Fletë Rexha</span>
+                <span class="badge">Open To Work </span>
+            </div>
 
-  <div class="hero-content">
-    <div class="top-row">
-      <span>Hello I'm Fletë Rexha</span>
-      <span class="badge">Open To Work •</span>
-    </div>
-    
-    <h1>Thoughtful <br> <span class="italic-text">by design</span></h1>
-    
-    <div class="bottom-row">
-     <p>
-    I am a first-year student in the Bachelor of Computer Science and Engineering program at UBT.<br><br>
-    
-    I have a solid foundation in <strong>HTML, CSS, and JavaScript</strong> for Frontend development, as well as <strong>PHP and MySQL</strong> for Backend. 
-    Additionally, I work with the <strong>Laravel</strong> framework and am currently expanding my skills in <strong>Java and Spring Boot</strong>.
-    </p>
-    </div>
+            <h1>Thoughtful <br> <span class="italic-text">by design</span></h1>
 
-    <div class="floating-card">
-      <img src="image/fotoGraduimi.jpg" alt="Illustration">
-    </div>
-  </div>
-</section>
 
-    <section id="about" class="reveal">
-        <h2>Rreth meje</h2>
-        <p>
-            Jam studente e vitit 1 në Fakultetin Shkencave Kompjuterike dhe Inxhinieri Bachelor në UBT.<br><br>
-            Kam njohuri me <strong>HTML, CSS, JavaScript</strong> për Frontend dhe <strong>PHP e MySQL</strong> për Backend. 
-            Gjithashtu përdor framework-un <strong>Laravel</strong> dhe jam duke mësuar <strong>Java e Spring Boot</strong>.
-        </p>
-    </section>
-
-    <section id="projects" class="reveal">
-        <h2>Projektet</h2>
-        <div class="project-grid">
-            <div class="card">  <a href="https://github.com/rexhaflete/NB" target="_blank"><h3>Projekti 1</h3></a><img src="image/notebook.png" alt="Notebook  " class="card-img"> </div>
-            <div class="card"> <a href="https://github.com/rexhaflete/PHP-project" target="_blank"><h3>Projekti 2</h3> </a> <img src="image/dsProject.png" alt="Terminet" class="card-img"> </div>
+            <div class="floating-card">
+                <img src="image/fotoGraduimi.jpg" alt="Fletë Rexha">
+            </div>
+            
         </div>
     </section>
 
-    <footer id="contact">
-        <h2>Kontakt</h2>
-        <p>Github: <a href="https://github.com/rexhaflete" target="_blank">rexhaflete</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/flet%C3%AB-rexha-2a8116398/" target="_blank">Fletë Rexha</a></p>
-        <p>Email: fleterexha@gmail.com</p>
-        <p>Telefon: +383 49 886 340</p>
-    </footer>
-
     
-    <script src="JS/script.js"></script>
+    <div class="clean-story" id="about">
+        <p class="intro-text">I am a first-year student in the Bachelor of Computer Science and Engineering program at UBT.</p>
+        
+        <p class="body-text">
+            I have a solid foundation in <span class="tech-highlight">HTML</span>, <span class="tech-highlight">CSS</span>, and <span class="tech-highlight">JavaScript</span> for Frontend development, as well as <span class="tech-highlight">PHP</span> and <span class="tech-highlight">MySQL</span> for Backend. Additionally, I work with the <span class="tech-highlight">Laravel</span> framework and am currently expanding my skills in <span class="tech-highlight">Java</span> and <span class="tech-highlight">Spring Boot</span>.
+        </p>
+    </div>
+
+   <section id="resume">
+   </section>
+
+   <section class="resume-cta-section">
+    <div class="resume-card">
+        <div class="resume-info">
+            <span class="resume-subtitle">Ready for opportunities</span>
+            <h2>Curriculum Vitae</h2>
+            <p>Dive deeper into my academic journey, technical skills, and the frameworks I use to build thoughtful digital experiences.</p>
+            <a href="/resume/Fletë Rexha - Resume.pdf" target="_blank" class="download-btn">
+                <span>View Full Resume</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+        <div class="resume-visual">
+            <div class="fake-resume-page">
+                <div class="line long"></div>
+                <div class="line medium"></div>
+                <div class="line short"></div>
+                <div class="line medium"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <section class="projects-section">
+    <h2 class="section-title" id="work">Featured Work</h2>
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="project-badge">Testing & QA</div>
+            <h3>E-Commerce Automation Test</h3>
+            <p>Developed a comprehensive automated test plan and script for an e-commerce platform's guest checkout flow using the Playwright framework.</p>
+            <div class="project-tags">
+                <span>Playwright</span>
+                <span>JavaScript</span>
+                <span>QA Testing</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-badge">Web Development</div>
+            <h3>Responsive Web Application</h3>
+            <p>Built a responsive web application focusing on backend logic, database management, and structured class architectures.</p>
+            <div class="project-tags">
+                <span>PHP</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-badge">Design</div>
+            <h3>Interactive UI/UX Prototypes</h3>
+            <p>Designed user-centered, clean interface wireframes and interactive prototypes emphasizing the "thoughtful by design" philosophy.</p>
+            <div class="project-tags">
+                <span>Figma</span>
+                <span>Canva</span>
+                <span>UI/UX</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills-section">
+    <h2 class="section-title">Technical Toolkit</h2>
+    <div class="skills-container">
+        <div class="skill-category">
+            <h4>Frontend & Design</h4>
+            <p>HTML, CSS, JavaScript, Figma, Canva</p>
+        </div>
+        <div class="skill-category">
+            <h4>Backend & Systems</h4>
+            <p>PHP, MySQL, Laravel, Java, Spring Boot, 8086 Assembly</p>
+        </div>
+    </div>
+</section>
+
+   <footer class="footer">
+    <section id="contact">
+        <div>
+            <h2>Contact me</h2>
+            <p>Feel free to reach out to me for any inquiries or opportunities!</p>
+            <a href="https://www.linkedin.com/in/fletë-rexha-2a8116398" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <p></p>
+            <a href="mailto:fleterexha@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+            <p></p>
+            <a href="https://github.com/rexhaflete" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <p>&copy; 2026 Fletë Rexha. All rights reserved.</p>
+        </div>
+    </section>
+   </footer>
+
+<script src="JS/script.js"></script>
 </body>
 </html>
